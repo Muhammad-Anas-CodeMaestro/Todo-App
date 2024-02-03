@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.to-do-list img{
+    width: 11%;
+    border: 3px solid white;
+    border-radius: 150px;
+}
+
+.main-container{
+    display: flex;
+    background-color: rgb(170, 49, 170);
+    color: white;
+}
+
+.left-container{
+    width: 50%;
+}
+
+.right-container{
+    width: 50%;
+}
+
+.nav-list{
+    display: flex;
+    text-align: right;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 9px 10px
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.left-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.second-container{
+    background-color: #f2f8f8;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.heading-paragraph h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.heading-paragraph p{
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.full-form{
+    background-color: white;
+    box-shadow: 5px 5px 10px gray;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.full-name{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.full-name > div {
+    padding: 0 2px;
+}
+
+.firstN input{
+    font-size: 14px;
+    border: 1px solid rgb(206, 201, 201);
+    padding: 4px 0px;
+    margin: 10px 0px;
+}
+
+.secondN input{
+    font-size: 14px;
+    padding: 3px 0px;
+    border: 1px solid rgb(206, 201, 201);
+    padding: 4px 0px;
+    margin: 10px 0px;
+}
+
+.Email{
+    font-size: 14px;
+    border: 1px solid rgb(206, 201, 201);
+    padding: 4px 0px;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.password{
+    font-size: 14px;
+    border: 1px solid rgb(206, 201, 201);
+    padding: 4px 0px;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.btn-signup{
+    font-size: 14px;
+    border: 1px solid rgb(206, 201, 201);
+    padding: 8px 0px;
+    margin: 10px 0px;
+    width: 100%;
+    background-color: rgb(79, 167, 218);
+    color: white;
+}
+
+.btn-already-login{
+    font-size: 13px;
+    padding: 8px 0px;
+    width: 100%;
+    border: 0px;
+    background-color: white;
+}

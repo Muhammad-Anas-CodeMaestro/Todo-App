@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO Application</title>
+    <link rel="stylesheet" href="stylehomepage.css">
+</head>
+
+<body>
+    <header>
+        <nav class="main-container">
+            <div class="left-container">
+                <a href="#">TODO APP</a>
+            </div>
+            <div class="right-container">
+                <ul class="nav-list">
+                    <div class="to-do-list">
+                        <img src="to-do-apps.png" alt="logo">
+                    </div>
+                    <li>Home</li>
+                    <li>Profile</li>
+                    <li><a href="./signin.html">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="second-main">
+        <div class="display-name" style="margin-top: 5px;">
+            <label class="display">User Name: <spna id="first"></spna> <span id="last"></span></label>
+            <h1 class="application">Todo Application</h1>
+        </div>
+        <div class="second-part">
+            <input type="text" class="todo" id="todo" placeholder="Write Todo">
+
+            <div class="buttons">
+                <button class="btn btn-addtodo" onclick="addTodo()">Add Todo</button>
+                <button class="btn btn-deleteall" onclick="delall()">Delete All</button>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="getUl" id="getUl">
+    
+            </ul>
+        </div>
+    </main>
+
+
+
+    <script src="mainPage.js"></script>
+</body>
+
+</html>

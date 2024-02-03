@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin Page</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+
+<body>
+    <header>
+        <nav class="main-container">
+            <div class="left-container">
+                <a href="#">TODO APP</a>
+            </div>
+            <div class="right-container">
+                <ul class="nav-list">
+                    <div class="to-do-list">
+                        <img src="to-do-apps.png" alt="logo">
+                    </div>
+                    <li>Home</li>
+                    <li>Profile</li>
+                    <li><a href="./signin.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="second-container">
+        <div class="heading-paragraph">
+            <h1>Sign in to your account</h1>
+            <p>to add your task ✌</p>
+            <div class="full-form">
+                <label for="EmailAddress">Email address</label><br>
+                <input type="email" name="Email" id="Email" class="EmailAddress"><br>
+                <label for="password">Password</label><br>
+                <input type="password" name="Password" id="Pass" class="pass"><br>
+                <button class="btn-signup" onclick="signin()">Sign in</button><br>
+                <button class="btn-already-login" onclick="oldpage()">New here? Register</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

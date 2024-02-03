@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup Page</title>
+  <link rel="stylesheet" href="Signup.css">
+</head>
+
+<body>
+  <header>
+    <nav class="main-container">
+      <div class="left-container">
+        <a href="#">TODO APP</a>
+      </div>
+      <div class="right-container">
+        <ul class="nav-list">
+          <div class="to-do-list">
+            <img src="to-do-apps.png" alt="logo">
+          </div>
+          <li>Home</li>
+          <li>Profile</li>
+          <li><a href="./signin.html">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="second-container">
+    <div class="heading-paragraph">
+      <h1>Sign up</h1>
+      <p>to make your time productive ✌</p>
+      <div class="full-form">
+        <div class="full-name">
+          <div class="firstN">
+            <label for="First">First Name<span style="color: red;">*</span></label><br>
+            <input type="text" name="Fname" id="Fname" class="Fname">
+          </div>
+          <div class="secondN">
+            <label for="Last">Last Name</label><br>
+            <input type="text" name="Lname" id="Lname" class="Lname">
+          </div>
+        </div>
+        <label for="EmailAddress">Email address<span style="color: red;">*</span></label><br>
+        <input type="email" name="Email" id="Email" class="Email"><br>
+        <label for="password">Password<span style="color: red;">*</span></label><br>
+        <input type="password" name="Password" id="Pass" class="password"><br>
+        <button class="btn-signup" onclick="signup()">Sign up</button><br>
+        <button class="btn-already-login" onclick="newpage()">Already a user? Login</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
